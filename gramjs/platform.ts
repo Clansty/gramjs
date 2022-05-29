@@ -1,3 +1,3 @@
 export const isDeno = "Deno" in globalThis;
-export const isBrowser = !isDeno && typeof window !== "undefined";
+export const isBrowser = false;
 export const isNode = !isBrowser;
